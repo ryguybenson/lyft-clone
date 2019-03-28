@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.driver {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lyft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.download {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: start;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+}
+.download img {
+  width: 15vw;
+  height: 4vh;
+}
+.download .download-text {
+  grid-column: 1/3;
+}
+
+.apple {
+  align-self: start;
+}
+
+.microsoft {
+  display: inline;
+  align-self: start;
+}

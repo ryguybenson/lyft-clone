@@ -1,0 +1,30 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  border-bottom: 1px solid gray;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: #9BE5F3; */
+  color: #1850A5;
+}
+.header-right {
+  display: flex;
+  flex-direction: row;
+}
+h2 {
+  padding: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 5vw;
+  height: 5vh;
+}
